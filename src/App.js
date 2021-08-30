@@ -6,7 +6,7 @@ import {addExpense} from "./actions/expenses";
 import { setFilter } from "./actions/filters";
 import getExpenses from "./selectors/expenses";
 import normalize from 'normalize.css'
-import './styles/styles.scss'
+//import './styles/styles.scss'
 
 const store = configureStore()
 

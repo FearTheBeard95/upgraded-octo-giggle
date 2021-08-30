@@ -17,6 +17,7 @@ export default (state = expensesReducerDefaultState, action) => {
                     return expense
                 }
             })
+            console.log(action)
         default:
             return state
     }
